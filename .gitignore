@@ -1,18 +1,29 @@
 # Python
-venv/
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Environment
-.env
+# Virtual environment
+.venv/
+env/
+venv/
 
-# VS Code / VS
-.vscode/
+# Visual Studio
 .vs/
-*.user
-*.suo
+*.pyproj.user
 
-# Logs
-logs/
+# Logs and environment
 *.log
+.env
+.env.*
 
+# IDE
+.idea/
+*.suo
+*.user
+*.sln.docstates
+
+# Misc
+.DS_Store
+Thumbs.db
