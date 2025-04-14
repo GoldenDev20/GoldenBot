@@ -27,3 +27,4 @@ venv/
 # Misc
 .DS_Store
 Thumbs.db
+.qodo
